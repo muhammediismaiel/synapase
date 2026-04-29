@@ -1,0 +1,26 @@
+{
+  "name": "synapse",
+  "version": "1.0.0",
+  "description": "website to know synapse co ",
+  "keywords": [
+    "synapse"
+  ],
+  "homepage": "https://github.com/muhammediismaiel/synapase#readme",
+  "bugs": {
+    "url": "https://github.com/muhammediismaiel/synapase/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammediismaiel/synapase.git"
+  },
+  "license": "ISC",
+  "author": "muhammed ismaiel",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
