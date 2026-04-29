@@ -1,9 +1,12 @@
 {
   "name": "synapse",
   "version": "1.0.0",
-  "description": "website to know synapse co ",
+  "description": "Technology services platform with appointment booking system",
   "keywords": [
-    "synapse"
+    "synapse",
+    "express",
+    "mongodb",
+    "appointments"
   ],
   "homepage": "https://github.com/muhammediismaiel/synapase#readme",
   "bugs": {
@@ -18,9 +21,18 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node --watch index.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test"
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "joi": "^17.9.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0"
   }
 }
